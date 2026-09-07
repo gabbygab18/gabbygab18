@@ -52,7 +52,7 @@ const gabbygab = {
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center"><img src="https://api.iconify.design/bx:wrench.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; toolbox</h2>
-<p align="center"><sub><img src="https://api.iconify.design/bx:chevron-down.svg?color=%239a9a9e&width=19" width="13" align="center" alt="" /> each group expands into animated skill levels</sub></p>
+<p align="center"><sub><img src="https://api.iconify.design/bx:chevron-down.svg?color=%239a9a9e&width=19" width="13" align="center" alt="" /> click a group to see what I work with</sub></p>
 
 <details>
 <summary><b>&nbsp;<img src="https://api.iconify.design/bx:layout.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; frontend</b></summary>
@@ -60,10 +60,6 @@ const gabbygab = {
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,vue,angular,tailwind,bootstrap&theme=light" alt="frontend stack" />
-</p>
-
-<p align="center">
-  <img src="assets/skills-frontend.svg" width="92%" alt="frontend skill levels" />
 </p>
 
 </details>
@@ -76,10 +72,6 @@ const gabbygab = {
   <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,postgresql,supabase,firebase&theme=light" alt="backend stack" />
 </p>
 
-<p align="center">
-  <img src="assets/skills-backend.svg" width="92%" alt="backend skill levels" />
-</p>
-
 </details>
 
 <details>
@@ -88,10 +80,6 @@ const gabbygab = {
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=light" alt="devops stack" />
-</p>
-
-<p align="center">
-  <img src="assets/skills-devops.svg" width="92%" alt="devops skill levels" />
 </p>
 
 </details>
@@ -104,10 +92,6 @@ const gabbygab = {
   <img src="https://skillicons.dev/icons?i=figma,ps,premiere&theme=light" alt="design stack" />
 </p>
 
-<p align="center">
-  <img src="assets/skills-design.svg" width="92%" alt="design skill levels" />
-</p>
-
 </details>
 
 <details>
@@ -116,10 +100,6 @@ const gabbygab = {
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,cloudflare&theme=light" alt="tools stack" />
-</p>
-
-<p align="center">
-  <img src="assets/skills-tools.svg" width="92%" alt="tools skill levels" />
 </p>
 
 </details>
