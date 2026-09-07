@@ -25,7 +25,13 @@
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:user-circle.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; About Me</h2>
+<h2 align="center">
+  <img src="assets/h-about.svg" height="52" alt="About Me" />
+</h2>
+
+<p align="center">
+  <img src="assets/quote.png" width="46" alt="" />
+</p>
 
 <p align="center">
 <i>I build real-world web projects, craft compelling brand visuals, and turn ideas into<br/>
@@ -51,11 +57,15 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:wrench.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; toolbox</h2>
-<p align="center"><sub><img src="https://api.iconify.design/bx:chevron-down.svg?color=%239a9a9e&width=19" width="13" align="center" alt="" /> click a group to see what I work with</sub></p>
+<h2 align="center">
+  <img src="assets/h-toolbox.svg" height="52" alt="toolbox" />
+</h2>
+<p align="center">
+  <img src="assets/cap-toolbox.svg" height="31" alt="click a group to see what I work with" />
+</p>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:layout.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; frontend</b></summary>
+<summary><img src="assets/s-frontend.svg" height="30" alt="frontend" /></summary>
 <br/>
 
 <p align="center">
@@ -65,7 +75,7 @@ const gabbygab = {
 </details>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:server.svg?color=%23ffc107&width=22" width="16" align="center" alt="" />&nbsp; backend</b></summary>
+<summary><img src="assets/s-backend.svg" height="30" alt="backend" /></summary>
 <br/>
 
 <p align="center">
@@ -75,7 +85,7 @@ const gabbygab = {
 </details>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:cloud.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; devops</b></summary>
+<summary><img src="assets/s-devops.svg" height="30" alt="devops" /></summary>
 <br/>
 
 <p align="center">
@@ -85,7 +95,7 @@ const gabbygab = {
 </details>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:palette.svg?color=%23ffc107&width=22" width="16" align="center" alt="" />&nbsp; design</b></summary>
+<summary><img src="assets/s-design.svg" height="30" alt="design" /></summary>
 <br/>
 
 <p align="center">
@@ -95,7 +105,7 @@ const gabbygab = {
 </details>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:terminal.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; tools</b></summary>
+<summary><img src="assets/s-tools.svg" height="30" alt="tools" /></summary>
 <br/>
 
 <p align="center">
@@ -107,10 +117,12 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:briefcase.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; experience</h2>
+<h2 align="center">
+  <img src="assets/h-experience.svg" height="52" alt="experience" />
+</h2>
 
 <details>
-<summary><b>&nbsp;<img src="https://api.iconify.design/bx:time-five.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; 6 roles since 2022</b></summary>
+<summary><img src="assets/s-roles.svg" height="30" alt="6 roles since 2022" /></summary>
 <br/>
 
 <table>
@@ -145,7 +157,9 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:bar-chart-alt-2.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; stats</h2>
+<h2 align="center">
+  <img src="assets/h-stats.svg" height="52" alt="stats" />
+</h2>
 
 <p align="center">
   <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=FFFFFF&border=E2E2E2&stroke=E2E2E2&ring=FF9016&fire=FF9016&currStreakLabel=5D5D5D&currStreakNum=0B0B0C&sideNums=0B0B0C&sideLabels=5D5D5D&dates=5D5D5D" alt="contribution streak" />
@@ -154,7 +168,9 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:box.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; snake eats my commits</h2>
+<h2 align="center">
+  <img src="assets/h-snake.svg" height="52" alt="snake eats my commits" />
+</h2>
 
 <p align="center">
   <picture>
@@ -167,7 +183,13 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:briefcase-alt-2.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; hire me</h2>
+<h2 align="center">
+  <img src="assets/h-hire.svg" height="52" alt="hire me" />
+</h2>
+
+<p align="center">
+  <img src="assets/bulb.png" width="84" alt="" />
+</p>
 
 <p align="center">
 open for <b>freelance</b> &mdash; web builds, landing pages, branding, thumbnails, video edits.
@@ -183,6 +205,6 @@ open for <b>freelance</b> &mdash; web builds, landing pages, branding, thumbnail
 </p>
 
 <p align="center">
-  <sub><img src="https://api.iconify.design/bxs:hand.svg?color=%239a9a9e&width=19" width="13" align="center" alt="" /> thanks for scrolling</sub>
+  <img src="assets/cap-thanks.svg" height="31" alt="thanks for scrolling" />
 </p>
 
