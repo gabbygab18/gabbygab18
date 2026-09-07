@@ -58,71 +58,58 @@ const gabbygab = {
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center">
-  <img src="assets/h-toolbox.svg" height="52" alt="toolbox" />
+  <img src="assets/h-toolbox.svg" height="52" alt="Toolbox" />
 </h2>
 <p align="center">
-  <img src="assets/cap-toolbox.svg" height="31" alt="click a group to see what I work with" />
+  <img src="assets/cap-toolbox.svg" height="31" alt="What I Work With" />
 </p>
 
-<details>
-<summary><img src="assets/s-frontend.svg" height="30" alt="frontend" /></summary>
-<br/>
-
+<p align="center">
+  <img src="assets/s-frontend.svg" height="30" alt="frontend" />
+</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,vue,angular,tailwind,bootstrap&theme=light" alt="frontend stack" />
 </p>
 
-</details>
-
-<details>
-<summary><img src="assets/s-backend.svg" height="30" alt="backend" /></summary>
-<br/>
-
+<p align="center">
+  <img src="assets/s-backend.svg" height="30" alt="backend" />
+</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,postgresql,supabase,firebase&theme=light" alt="backend stack" />
 </p>
 
-</details>
-
-<details>
-<summary><img src="assets/s-devops.svg" height="30" alt="devops" /></summary>
-<br/>
-
+<p align="center">
+  <img src="assets/s-devops.svg" height="30" alt="devops" />
+</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=light" alt="devops stack" />
 </p>
 
-</details>
-
-<details>
-<summary><img src="assets/s-design.svg" height="30" alt="design" /></summary>
-<br/>
-
+<p align="center">
+  <img src="assets/s-design.svg" height="30" alt="design" />
+</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=figma,ps,premiere&theme=light" alt="design stack" />
 </p>
 
-</details>
-
-<details>
-<summary><img src="assets/s-tools.svg" height="30" alt="tools" /></summary>
-<br/>
-
+<p align="center">
+  <img src="assets/s-tools.svg" height="30" alt="tools" />
+</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,cloudflare&theme=light" alt="tools stack" />
 </p>
-
-</details>
 
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center">
-  <img src="assets/h-experience.svg" height="52" alt="experience" />
+  <img src="assets/h-experience.svg" height="52" alt="Experience" />
 </h2>
 
+<div align="center">
+
 <details>
-<summary><img src="assets/s-roles.svg" height="30" alt="6 roles since 2022" /></summary>
+<summary><b>6 Roles Since 2022</b></summary>
 <br/>
 
 <table>
@@ -154,11 +141,13 @@ const gabbygab = {
 
 </details>
 
+</div>
+
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center">
-  <img src="assets/h-stats.svg" height="52" alt="stats" />
+  <img src="assets/h-stats.svg" height="52" alt="Stats" />
 </h2>
 
 <p align="center">
@@ -169,7 +158,7 @@ const gabbygab = {
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center">
-  <img src="assets/h-snake.svg" height="52" alt="snake eats my commits" />
+  <img src="assets/h-snake.svg" height="52" alt="Snake Eats My Commits" />
 </h2>
 
 <p align="center">
@@ -184,7 +173,7 @@ const gabbygab = {
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <h2 align="center">
-  <img src="assets/h-hire.svg" height="52" alt="hire me" />
+  <img src="assets/h-hire.svg" height="52" alt="Hire Me" />
 </h2>
 
 <p align="center">
