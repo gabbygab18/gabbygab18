@@ -1,10 +1,10 @@
 {
   "board": [
+    "X",
     ".",
     ".",
     ".",
-    ".",
-    ".",
+    "O",
     ".",
     ".",
     ".",
@@ -12,8 +12,8 @@
   ],
   "turn": "X",
   "status": "playing",
-  "lastMove": null,
-  "lastPlayer": null,
+  "lastMove": 4,
+  "lastPlayer": "O",
   "scores": {
     "wins": 0,
     "losses": 0,

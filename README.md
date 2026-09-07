@@ -79,13 +79,13 @@ const gabbygab = {
 
 <table>
   <tr>
-    <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C0&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 0"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
+    <td align="center" height="72" width="72"><img src="https://api.iconify.design/bx:x.svg?color=%23f778ba&width=44&height=44" width="44" alt="X" /></td>
     <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C1&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 1"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
     <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C2&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 2"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
   </tr>
   <tr>
     <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C3&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 3"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
-    <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C4&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 4"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
+    <td align="center" height="72" width="72"><img src="https://api.iconify.design/bx:circle.svg?color=%2358a6ff&width=38&height=38" width="38" alt="O" /></td>
     <td align="center" height="72" width="72"><a href="https://github.com/gabbygab18/gabbygab18/issues/new?title=ttt%7Cmove%7C5&body=Leave%20this%20as-is%20and%20press%20Create.%20The%20board%20updates%20in%20about%20a%20minute." title="play square 5"><img src="https://api.iconify.design/bx:plus.svg?color=%2330363d&width=30&height=30" width="30" alt="play here" /></a></td>
   </tr>
   <tr>
