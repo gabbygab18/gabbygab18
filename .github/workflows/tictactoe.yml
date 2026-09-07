@@ -1,0 +1,50 @@
+name: Tic Tac Toe
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tictactoe
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Play the move
+        id: play
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          node game/ttt.js "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+          echo "result=$(cat game/result.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the new board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git diff --staged --quiet || git commit -m "chore(game): ${{ steps.play.outputs.result }} (@${{ github.event.issue.user.login }})"
+          git push
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "**${{ steps.play.outputs.result }}** — board updated on [the profile](https://github.com/${{ github.repository }}). Thanks for playing, @${{ github.event.issue.user.login }}."
+          gh issue close "${{ github.event.issue.number }}"
