@@ -1,4 +1,4 @@
-name: Tic Tac Toe
+name: Connect Four
 
 on:
   issues:
@@ -9,12 +9,12 @@ permissions:
   issues: write
 
 concurrency:
-  group: tictactoe
+  group: connectfour
   cancel-in-progress: false
 
 jobs:
   play:
-    if: startsWith(github.event.issue.title, 'ttt|')
+    if: startsWith(github.event.issue.title, 'c4|')
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -29,22 +29,31 @@ jobs:
         id: play
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_ACTOR: ${{ github.event.issue.user.login }}
         run: |
-          node game/ttt.js "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+          node game/c4.js "$ISSUE_TITLE" "$ISSUE_ACTOR"
           echo "result=$(cat game/result.txt)" >> "$GITHUB_OUTPUT"
 
       - name: Commit the new board
+        env:
+          ACTOR: ${{ github.event.issue.user.login }}
+          RESULT: ${{ steps.play.outputs.result }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md game/state.json
-          git diff --staged --quiet || git commit -m "chore(game): ${{ steps.play.outputs.result }} (@${{ github.event.issue.user.login }})"
+          git diff --staged --quiet || git commit -m "chore(game): $RESULT (@$ACTOR)"
           git push
 
       - name: Reply and close the issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          ACTOR: ${{ github.event.issue.user.login }}
+          RESULT: ${{ steps.play.outputs.result }}
+          REPO: ${{ github.repository }}
         run: |
-          gh issue comment "${{ github.event.issue.number }}" \
-            --body "**${{ steps.play.outputs.result }}** — board updated on [the profile](https://github.com/${{ github.repository }}). Thanks for playing, @${{ github.event.issue.user.login }}."
-          gh issue close "${{ github.event.issue.number }}"
+          gh issue comment "$ISSUE" \
+            --body "**$RESULT** — board updated on [the profile](https://github.com/$REPO). Thanks for playing, @$ACTOR."
+          gh issue close "$ISSUE"
