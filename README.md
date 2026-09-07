@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=900&color=FFC107&center=true&vCenter=true&width=620&height=34&lines=I+build+real-world+web+projects.;I+craft+brand+visuals+that+carry+weight.;always+learning.+always+shipping." alt="" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=16&duration=3200&pause=900&color=FF9016&center=true&vCenter=true&width=620&height=34&lines=I+build+real-world+web+projects.;I+craft+brand+visuals+that+carry+weight.;always+learning.+always+shipping." alt="" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:user-circle.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; whoami</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:user-circle.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; About Me</h2>
 
 <p align="center">
 <i>I build real-world web projects, craft compelling brand visuals, and turn ideas into<br/>
@@ -51,7 +51,7 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:wrench.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; toolbox</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:wrench.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; toolbox</h2>
 <p align="center"><sub><img src="https://api.iconify.design/bx:chevron-down.svg?color=%239a9a9e&width=19" width="13" align="center" alt="" /> each group expands into animated skill levels</sub></p>
 
 <details>
@@ -59,7 +59,7 @@ const gabbygab = {
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,vue,angular,tailwind,bootstrap&theme=dark" alt="frontend stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,vue,angular,tailwind,bootstrap&theme=light" alt="frontend stack" />
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@ const gabbygab = {
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,postgresql,supabase,firebase&theme=dark" alt="backend stack" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,postgresql,supabase,firebase&theme=light" alt="backend stack" />
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ const gabbygab = {
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=dark" alt="devops stack" />
+  <img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=light" alt="devops stack" />
 </p>
 
 <p align="center">
@@ -101,7 +101,7 @@ const gabbygab = {
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,ps,premiere&theme=dark" alt="design stack" />
+  <img src="https://skillicons.dev/icons?i=figma,ps,premiere&theme=light" alt="design stack" />
 </p>
 
 <p align="center">
@@ -115,7 +115,7 @@ const gabbygab = {
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,cloudflare&theme=dark" alt="tools stack" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,cloudflare&theme=light" alt="tools stack" />
 </p>
 
 <p align="center">
@@ -127,7 +127,7 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:briefcase.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; experience</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:briefcase.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; experience</h2>
 
 <details>
 <summary><b>&nbsp;<img src="https://api.iconify.design/bx:time-five.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; 6 roles since 2022</b></summary>
@@ -165,26 +165,16 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:bar-chart-alt-2.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; stats</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:bar-chart-alt-2.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; stats</h2>
 
 <p align="center">
-  <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=0B0B0C&border=FFC107&stroke=FFC107&ring=FFC107&fire=FF9016&currStreakLabel=FFC107&currStreakNum=FFFFFF&sideNums=FFC107&sideLabels=9A9A9E&dates=9A9A9E" alt="contribution streak" />
+  <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=FFFFFF&border=E2E2E2&stroke=E2E2E2&ring=FF9016&fire=FF9016&currStreakLabel=5D5D5D&currStreakNum=0B0B0C&sideNums=0B0B0C&sideLabels=5D5D5D&dates=5D5D5D" alt="contribution streak" />
 </p>
-
-<details>
-<summary align="center"><b>&nbsp;<img src="https://api.iconify.design/bx:trending-up.svg?color=%23ff9016&width=22" width="16" align="center" alt="" />&nbsp; contribution graph</b></summary>
-<br/>
-
-<p align="center">
-  <img width="86%" src="https://ghchart.rshah.org/ffc107/gabbygab18" alt="contribution chart" />
-</p>
-
-</details>
 
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:box.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; snake eats my commits</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:box.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; snake eats my commits</h2>
 
 <p align="center">
   <picture>
@@ -197,7 +187,7 @@ const gabbygab = {
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<h2 align="center"><img src="https://api.iconify.design/bx:briefcase-alt-2.svg?color=%23ffc107&width=28" width="22" align="center" alt="" />&nbsp; hire me</h2>
+<h2 align="center"><img src="https://api.iconify.design/bx:briefcase-alt-2.svg?color=%23ff9016&width=28" width="22" align="center" alt="" />&nbsp; hire me</h2>
 
 <p align="center">
 open for <b>freelance</b> &mdash; web builds, landing pages, branding, thumbnails, video edits.
