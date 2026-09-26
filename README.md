@@ -152,7 +152,6 @@ const gabbygab = {
 </h2>
 
 <p align="center">
-  <img height="188" src="assets/card-stats.svg" alt="GitHub stats and rank" />
   <img height="188" src="assets/card-langs.svg" alt="Most used languages" />
 </p>
 

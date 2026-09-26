@@ -1,13 +1,10 @@
-"""Render the GitHub stats and top-languages cards as branded SVGs.
+"""Render the top-languages card as a branded SVG.
 
 github-readme-stats' public instance is permanently paused (503
 DEPLOYMENT_PAUSED), and its themes cannot match this profile anyway: the rest
 of the README uses Poppins on paper with the portfolio's amber. So the cards
 are drawn here from the GitHub API, in that same design language, and a
 scheduled workflow keeps them current.
-
-The rank letter uses github-readme-stats' own published formula
-(src/calculateRank.js) so the grade means the same thing it does there.
 
 Usage: GITHUB_TOKEN=... python tools/cards.py [username]
 """
@@ -82,43 +79,7 @@ def search_count(query, preview=None):
         return 0
 
 
-# --------------------------------------------------------------------- rank
-def exponential_cdf(x):
-    return 1 - 2 ** -x
-
-
-def log_normal_cdf(x):
-    return x / (1 + x)
-
-
-def calculate_rank(commits, prs, issues, reviews, stars, followers):
-    """Port of github-readme-stats src/calculateRank.js (all_commits=False)."""
-    weights = {
-        "commits": (250.0, 2), "prs": (50.0, 3), "issues": (25.0, 1),
-        "reviews": (2.0, 1), "stars": (50.0, 4), "followers": (10.0, 1),
-    }
-    total_weight = sum(w for _, w in weights.values())
-
-    score = (
-        weights["commits"][1] * exponential_cdf(commits / weights["commits"][0])
-        + weights["prs"][1] * exponential_cdf(prs / weights["prs"][0])
-        + weights["issues"][1] * exponential_cdf(issues / weights["issues"][0])
-        + weights["reviews"][1] * exponential_cdf(reviews / weights["reviews"][0])
-        + weights["stars"][1] * log_normal_cdf(stars / weights["stars"][0])
-        + weights["followers"][1] * log_normal_cdf(followers / weights["followers"][0])
-    )
-    rank = 1 - score / total_weight
-
-    thresholds = [1, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100]
-    levels = ["S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C"]
-    pct = rank * 100
-    for t, level in zip(thresholds, levels):
-        if pct <= t:
-            return level, pct
-    return levels[-1], pct
-
-
-# -------------------------------------------------------------------- fetch
+# ---------------------------------------------------------------- fetch
 def collect():
     user = api("/users/" + USER)
     repos, page = [], 1
@@ -170,61 +131,6 @@ def card_open(w, h, label):
         'stroke="%s" stroke-width="1.2" />\n'
         % (w, h, w, h, esc(label), FACE, FONT, w, h, PAPER, w - 1.2, h - 1.2, LINE)
     )
-
-
-def stats_card(d):
-    W, H = 520, 210
-    level, pct = calculate_rank(
-        d["commits"], d["prs"], d["issues"], d["reviews"], d["stars"], d["followers"]
-    )
-    rows = [
-        ("Total Stars Earned", d["stars"]),
-        ("Total Commits", d["commits"]),
-        ("Total PRs", d["prs"]),
-        ("Total Issues", d["issues"]),
-        ("Merged PRs", d["contributed"]),
-    ]
-
-    out = [card_open(W, H, "%s's GitHub stats" % USER)]
-    out.append(
-        '  <text x="26" y="40" font-size="17" font-weight="700" fill="%s">'
-        "GitHub Stats</text>\n" % INK
-    )
-    out.append('  <rect x="26" y="52" width="46" height="3" rx="1.5" fill="%s" />\n' % AMBER)
-
-    for i, (label, value) in enumerate(rows):
-        y = 82 + i * 24
-        out.append(
-            '  <g class="fade" style="animation-delay:%.2fs">'
-            '<text x="26" y="%d" font-size="13" fill="%s">%s</text>'
-            '<text x="300" y="%d" font-size="13" font-weight="700" text-anchor="end" '
-            'fill="%s">%s</text></g>\n'
-            % (0.1 * i, y, DARK, esc(label), y, INK, value)
-        )
-
-    # Rank ring. The arc length is the percentile, so a better rank draws more.
-    cx, cy, r = 420, 108, 52
-    circ = 2 * 3.141592653589793 * r
-    filled = circ * max(0.0, min(1.0, (100 - pct) / 100.0))
-    out.append(
-        '  <circle cx="%d" cy="%d" r="%d" fill="none" stroke="%s" stroke-width="8" />\n'
-        '  <circle cx="%d" cy="%d" r="%d" fill="none" stroke="%s" stroke-width="8" '
-        'stroke-linecap="round" stroke-dasharray="%.2f %.2f" '
-        'transform="rotate(-90 %d %d)">\n'
-        '    <animate attributeName="stroke-dasharray" from="0 %.2f" to="%.2f %.2f" '
-        'dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" />\n'
-        "  </circle>\n"
-        % (cx, cy, r, TRACK, cx, cy, r, AMBER, filled, circ - filled, cx, cy,
-           circ, filled, circ - filled)
-    )
-    # Letter only. The percentile reads backwards to most people -- a C is the
-    # 95th percentile, which looks like praise -- so the grade speaks for itself.
-    out.append(
-        '  <text x="%d" y="%d" font-size="34" font-weight="700" text-anchor="middle" '
-        'fill="%s">%s</text>\n' % (cx, cy + 12, INK, esc(level))
-    )
-    out.append("</svg>\n")
-    return "".join(out)
 
 
 def langs_card(d):
@@ -287,11 +193,9 @@ def main():
     print(json.dumps({k: v for k, v in data.items() if k != "langs"}, indent=2))
     print("languages:", sorted(data["langs"], key=lambda k: -data["langs"][k])[:6])
 
-    for name, body in (("card-stats.svg", stats_card(data)),
-                       ("card-langs.svg", langs_card(data))):
-        path = os.path.join(ASSETS, name)
-        io.open(path, "w", encoding="utf-8").write(body)
-        print("wrote %s (%d bytes)" % (name, len(body.encode("utf-8"))))
+    body = langs_card(data)
+    io.open(os.path.join(ASSETS, "card-langs.svg"), "w", encoding="utf-8").write(body)
+    print("wrote card-langs.svg (%d bytes)" % len(body.encode("utf-8")))
 
 
 if __name__ == "__main__":
