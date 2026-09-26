@@ -19,6 +19,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OPEN_FOR_FREELANCE-FF9016?style=flat-square&labelColor=0B0B0C&color=FF9016" alt="open for freelance" />
+  <img src="https://img.shields.io/github/stars/gabbygab18?style=flat-square&logo=github&logoColor=FFC107&labelColor=0B0B0C&color=FFC107&label=STARS" alt="total stars" />
+  <img src="https://img.shields.io/github/followers/gabbygab18?style=flat-square&logo=github&logoColor=FFC107&labelColor=0B0B0C&color=FFC107&label=FOLLOWERS" alt="followers" />
 </p>
 
 
@@ -148,6 +150,11 @@ const gabbygab = {
 <h2 align="center">
   <img src="assets/h-stats.svg" height="52" alt="Stats" />
 </h2>
+
+<p align="center">
+  <img height="188" src="assets/card-stats.svg" alt="GitHub stats and rank" />
+  <img height="188" src="assets/card-langs.svg" alt="Most used languages" />
+</p>
 
 <p align="center">
   <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=FFFFFF&border=E2E2E2&stroke=E2E2E2&ring=FF9016&fire=FF9016&currStreakLabel=5D5D5D&currStreakNum=0B0B0C&sideNums=0B0B0C&sideLabels=5D5D5D&dates=5D5D5D" alt="contribution streak" />
