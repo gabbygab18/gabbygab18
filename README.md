@@ -19,7 +19,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OPEN_FOR_FREELANCE-FF9016?style=flat-square&labelColor=0B0B0C&color=FF9016" alt="open for freelance" />
-  <img src="https://komarev.com/ghpvc/?username=gabbygab18&style=flat-square&color=FFC107&label=PROFILE+VIEWS" alt="profile views" />
 </p>
 
 
