@@ -13,13 +13,13 @@
   <text x="26" y="40" font-size="17" font-weight="700" fill="#0B0B0C">GitHub Stats</text>
   <rect x="26" y="52" width="46" height="3" rx="1.5" fill="#FFC107" />
   <g class="fade" style="animation-delay:0.00s"><text x="26" y="82" font-size="13" fill="#353535">Total Stars Earned</text><text x="300" y="82" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">0</text></g>
-  <g class="fade" style="animation-delay:0.10s"><text x="26" y="106" font-size="13" fill="#353535">Total Commits</text><text x="300" y="106" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">83</text></g>
+  <g class="fade" style="animation-delay:0.10s"><text x="26" y="106" font-size="13" fill="#353535">Total Commits</text><text x="300" y="106" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">84</text></g>
   <g class="fade" style="animation-delay:0.20s"><text x="26" y="130" font-size="13" fill="#353535">Total PRs</text><text x="300" y="130" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">0</text></g>
   <g class="fade" style="animation-delay:0.30s"><text x="26" y="154" font-size="13" fill="#353535">Total Issues</text><text x="300" y="154" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">1</text></g>
   <g class="fade" style="animation-delay:0.40s"><text x="26" y="178" font-size="13" fill="#353535">Merged PRs</text><text x="300" y="178" font-size="13" font-weight="700" text-anchor="end" fill="#0B0B0C">0</text></g>
   <circle cx="420" cy="108" r="52" fill="none" stroke="#F1F1F1" stroke-width="8" />
-  <circle cx="420" cy="108" r="52" fill="none" stroke="#FFC107" stroke-width="8" stroke-linecap="round" stroke-dasharray="16.48 310.25" transform="rotate(-90 420 108)">
-    <animate attributeName="stroke-dasharray" from="0 326.73" to="16.48 310.25" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" />
+  <circle cx="420" cy="108" r="52" fill="none" stroke="#FFC107" stroke-width="8" stroke-linecap="round" stroke-dasharray="16.60 310.13" transform="rotate(-90 420 108)">
+    <animate attributeName="stroke-dasharray" from="0 326.73" to="16.60 310.13" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" />
   </circle>
   <text x="420" y="120" font-size="34" font-weight="700" text-anchor="middle" fill="#0B0B0C">C</text>
 </svg>
