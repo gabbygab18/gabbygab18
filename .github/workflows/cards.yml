@@ -1,4 +1,4 @@
-name: Refresh Stats Cards
+name: Refresh Profile Art
 
 on:
   schedule:
@@ -34,10 +34,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/cards.py "${{ github.repository_owner }}"
 
+      - name: Render the contribution heatmap
+        run: python heatmap.py "${{ github.repository_owner }}"
+        working-directory: tools
+
       - name: Commit if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/card-langs.svg
-          git diff --staged --quiet || git commit -m "chore(cards): refresh stats"
+          git add assets/card-langs.svg assets/heatmap.svg
+          git diff --staged --quiet || git commit -m "chore(art): refresh profile art"
           git push

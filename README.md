@@ -55,6 +55,16 @@ const gabbygab = {
 };
 ```
 
+<p align="center">
+  <table align="center">
+    <tr>
+      <td valign="top"><img width="370" src="assets/ascii.svg" alt="ASCII portrait" /></td>
+      <td valign="top"><img width="420" src="assets/info-card.svg" alt="Profile summary" /></td>
+    </tr>
+  </table>
+</p>
+
+
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -152,6 +162,10 @@ const gabbygab = {
 </h2>
 
 <p align="center">
+  <img width="100%" src="assets/heatmap.svg" alt="Contribution graph" />
+</p>
+
+<p align="center">
   <img height="188" src="assets/card-langs.svg" alt="Most used languages" />
 </p>
 
@@ -201,4 +215,3 @@ open for <b>freelance</b> &mdash; web builds, landing pages, branding, thumbnail
 <p align="center">
   <img src="assets/cap-thanks.svg" height="31" alt="thanks for scrolling" />
 </p>
-
