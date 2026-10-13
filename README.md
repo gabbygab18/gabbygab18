@@ -56,12 +56,7 @@ const gabbygab = {
 ```
 
 <p align="center">
-  <table align="center">
-    <tr>
-      <td valign="top"><img width="370" src="assets/ascii.svg" alt="ASCII portrait" /></td>
-      <td valign="top"><img width="420" src="assets/info-card.svg" alt="Profile summary" /></td>
-    </tr>
-  </table>
+  <img width="470" src="assets/info-card.svg" alt="Profile summary" />
 </p>
 
 
