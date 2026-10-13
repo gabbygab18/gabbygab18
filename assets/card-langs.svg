@@ -15,14 +15,14 @@
   <rect x="26" y="66" width="368" height="10" rx="5" fill="#F1F1F1" />
   <g clip-path="url(#bar)">
     <clipPath id="bar"><rect x="26" y="66" width="368" height="10" rx="5" /></clipPath>
-    <rect x="26.00" y="66" width="0" height="10" fill="#3178C6"><animate attributeName="width" to="136.28" dur="1s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="162.28" y="66" width="0" height="10" fill="#FF9016"><animate attributeName="width" to="87.59" dur="1s" begin="0.08s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="249.87" y="66" width="0" height="10" fill="#563D7C"><animate attributeName="width" to="40.03" dur="1s" begin="0.16s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="289.90" y="66" width="0" height="10" fill="#F7523F"><animate attributeName="width" to="38.17" dur="1s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="328.07" y="66" width="0" height="10" fill="#F1E05A"><animate attributeName="width" to="33.93" dur="1s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="362.00" y="66" width="0" height="10" fill="#4F5D95"><animate attributeName="width" to="32.00" dur="1s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="26.00" y="66" width="0" height="10" fill="#3178C6"><animate attributeName="width" to="136.25" dur="1s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="162.25" y="66" width="0" height="10" fill="#FF9016"><animate attributeName="width" to="87.60" dur="1s" begin="0.08s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="249.85" y="66" width="0" height="10" fill="#563D7C"><animate attributeName="width" to="40.04" dur="1s" begin="0.16s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="289.88" y="66" width="0" height="10" fill="#F7523F"><animate attributeName="width" to="38.18" dur="1s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="328.06" y="66" width="0" height="10" fill="#F1E05A"><animate attributeName="width" to="33.93" dur="1s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="361.99" y="66" width="0" height="10" fill="#4F5D95"><animate attributeName="width" to="32.01" dur="1s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
   </g>
-  <g class="fade" style="animation-delay:0.00s"><circle cx="31" cy="100" r="5" fill="#3178C6" /><text x="43" y="104" font-size="12" fill="#353535">TypeScript 37.03%</text></g>
+  <g class="fade" style="animation-delay:0.00s"><circle cx="31" cy="100" r="5" fill="#3178C6" /><text x="43" y="104" font-size="12" fill="#353535">TypeScript 37.02%</text></g>
   <g class="fade" style="animation-delay:0.08s"><circle cx="223" cy="100" r="5" fill="#FF9016" /><text x="235" y="104" font-size="12" fill="#353535">Liquid 23.80%</text></g>
   <g class="fade" style="animation-delay:0.16s"><circle cx="31" cy="124" r="5" fill="#563D7C" /><text x="43" y="128" font-size="12" fill="#353535">CSS 10.88%</text></g>
   <g class="fade" style="animation-delay:0.24s"><circle cx="223" cy="124" r="5" fill="#F7523F" /><text x="235" y="128" font-size="12" fill="#353535">Blade 10.37%</text></g>
