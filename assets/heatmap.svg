@@ -329,7 +329,7 @@
   <rect x="712" y="144" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>11 contributions on 2026-09-25</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.84s" fill="freeze" /></rect>
   <rect x="726" y="144" width="11" height="11" rx="2.5" fill="#FFC107" opacity="0"><title>59 contributions on 2026-10-02</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.85s" fill="freeze" /></rect>
   <rect x="740" y="144" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>15 contributions on 2026-10-09</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.86s" fill="freeze" /></rect>
-  <rect x="754" y="144" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>12 contributions on 2026-10-16</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.87s" fill="freeze" /></rect>
+  <rect x="754" y="144" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>15 contributions on 2026-10-16</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.87s" fill="freeze" /></rect>
   <rect x="26" y="158" width="11" height="11" rx="2.5" fill="#F1F1F1" opacity="0"><title>0 contributions on 2025-10-18</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.30s" fill="freeze" /></rect>
   <rect x="40" y="158" width="11" height="11" rx="2.5" fill="#F1F1F1" opacity="0"><title>0 contributions on 2025-10-25</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.31s" fill="freeze" /></rect>
   <rect x="54" y="158" width="11" height="11" rx="2.5" fill="#F1F1F1" opacity="0"><title>0 contributions on 2025-11-01</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.32s" fill="freeze" /></rect>
@@ -382,7 +382,8 @@
   <rect x="712" y="158" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>9 contributions on 2026-09-26</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.89s" fill="freeze" /></rect>
   <rect x="726" y="158" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>1 contribution on 2026-10-03</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.90s" fill="freeze" /></rect>
   <rect x="740" y="158" width="11" height="11" rx="2.5" fill="#FFE9A8" opacity="0"><title>6 contributions on 2026-10-10</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.91s" fill="freeze" /></rect>
-  <text x="26" y="198" font-size="12" fill="#353535"><tspan font-weight="700" fill="#0B0B0C">1,649</tspan> contributions in the last year</text>
+  <rect x="754" y="158" width="11" height="11" rx="2.5" fill="#F1F1F1" opacity="0"><title>0 contributions on 2026-10-17</title><animate attributeName="opacity" to="1" dur=".35s" begin="0.92s" fill="freeze" /></rect>
+  <text x="26" y="198" font-size="12" fill="#353535"><tspan font-weight="700" fill="#0B0B0C">1,652</tspan> contributions in the last year</text>
   <text x="622" y="198" font-size="11" fill="#5D5D5D">Less</text>
   <rect x="656" y="189" width="11" height="11" rx="2.5" fill="#F1F1F1" />
   <rect x="670" y="189" width="11" height="11" rx="2.5" fill="#FFE9A8" />
