@@ -15,17 +15,17 @@
   <rect x="26" y="66" width="368" height="10" rx="5" fill="#F1F1F1" />
   <g clip-path="url(#bar)">
     <clipPath id="bar"><rect x="26" y="66" width="368" height="10" rx="5" /></clipPath>
-    <rect x="26.00" y="66" width="0" height="10" fill="#3178C6"><animate attributeName="width" to="169.46" dur="1s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="195.46" y="66" width="0" height="10" fill="#FF9016"><animate attributeName="width" to="63.28" dur="1s" begin="0.08s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="258.73" y="66" width="0" height="10" fill="#F1E05A"><animate attributeName="width" to="39.66" dur="1s" begin="0.16s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="298.39" y="66" width="0" height="10" fill="#4F5D95"><animate attributeName="width" to="38.97" dur="1s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="337.36" y="66" width="0" height="10" fill="#563D7C"><animate attributeName="width" to="30.58" dur="1s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
-    <rect x="367.95" y="66" width="0" height="10" fill="#F7523F"><animate attributeName="width" to="26.05" dur="1s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="26.00" y="66" width="0" height="10" fill="#3178C6"><animate attributeName="width" to="169.47" dur="1s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="195.47" y="66" width="0" height="10" fill="#FF9016"><animate attributeName="width" to="63.17" dur="1s" begin="0.08s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="258.64" y="66" width="0" height="10" fill="#F1E05A"><animate attributeName="width" to="39.59" dur="1s" begin="0.16s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="298.23" y="66" width="0" height="10" fill="#4F5D95"><animate attributeName="width" to="39.23" dur="1s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="337.46" y="66" width="0" height="10" fill="#563D7C"><animate attributeName="width" to="30.53" dur="1s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
+    <rect x="367.99" y="66" width="0" height="10" fill="#F7523F"><animate attributeName="width" to="26.01" dur="1s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" /></rect>
   </g>
   <g class="fade" style="animation-delay:0.00s"><circle cx="31" cy="100" r="5" fill="#3178C6" /><text x="43" y="104" font-size="12" fill="#353535">TypeScript 46.05%</text></g>
-  <g class="fade" style="animation-delay:0.08s"><circle cx="223" cy="100" r="5" fill="#FF9016" /><text x="235" y="104" font-size="12" fill="#353535">Liquid 17.19%</text></g>
-  <g class="fade" style="animation-delay:0.16s"><circle cx="31" cy="124" r="5" fill="#F1E05A" /><text x="43" y="128" font-size="12" fill="#353535">JavaScript 10.78%</text></g>
-  <g class="fade" style="animation-delay:0.24s"><circle cx="223" cy="124" r="5" fill="#4F5D95" /><text x="235" y="128" font-size="12" fill="#353535">PHP 10.59%</text></g>
-  <g class="fade" style="animation-delay:0.32s"><circle cx="31" cy="148" r="5" fill="#563D7C" /><text x="43" y="152" font-size="12" fill="#353535">CSS 8.31%</text></g>
-  <g class="fade" style="animation-delay:0.40s"><circle cx="223" cy="148" r="5" fill="#F7523F" /><text x="235" y="152" font-size="12" fill="#353535">Blade 7.08%</text></g>
+  <g class="fade" style="animation-delay:0.08s"><circle cx="223" cy="100" r="5" fill="#FF9016" /><text x="235" y="104" font-size="12" fill="#353535">Liquid 17.17%</text></g>
+  <g class="fade" style="animation-delay:0.16s"><circle cx="31" cy="124" r="5" fill="#F1E05A" /><text x="43" y="128" font-size="12" fill="#353535">JavaScript 10.76%</text></g>
+  <g class="fade" style="animation-delay:0.24s"><circle cx="223" cy="124" r="5" fill="#4F5D95" /><text x="235" y="128" font-size="12" fill="#353535">PHP 10.66%</text></g>
+  <g class="fade" style="animation-delay:0.32s"><circle cx="31" cy="148" r="5" fill="#563D7C" /><text x="43" y="152" font-size="12" fill="#353535">CSS 8.30%</text></g>
+  <g class="fade" style="animation-delay:0.40s"><circle cx="223" cy="148" r="5" fill="#F7523F" /><text x="235" y="152" font-size="12" fill="#353535">Blade 7.07%</text></g>
 </svg>
