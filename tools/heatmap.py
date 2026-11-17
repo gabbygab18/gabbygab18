@@ -14,12 +14,12 @@ import re
 import sys
 import urllib.request
 
-from brand import AMBER, DARK, INK, LINE, MUTED, card_open, esc, title, write
+from brand import BLUE_2, DARK, INK, LINE, MUTED, card_open, esc, title, write
 
 USER = sys.argv[1] if len(sys.argv) > 1 else "gabbygab18"
 
-# none -> busiest, in the portfolio's amber
-RAMP = ["#F1F1F1", "#FFE9A8", "#FFD257", "#FFC107", "#FF9016"]
+# none -> busiest, in the portfolio's blues
+RAMP = ["#E4F0FB", "#B9C8F0", "#7D93E3", "#3A55D0", "#2C43AA"]
 
 CELL = re.compile(
     r'<td[^>]*?id="(contribution-day-component-\d+-\d+)"[^>]*?'

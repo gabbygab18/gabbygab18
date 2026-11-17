@@ -1,8 +1,8 @@
 """Shared palette, type and SVG helpers for the generated profile art.
 
-Palette and font come from the portfolio itself (resources/sass/app.scss and
-tailwind.config.js): paper white, ink black, amber #FFC107 leading, orange
-#FF9016 supporting, Poppins throughout.
+Palette follows the portfolio at https://engrgab.dev (its --m-* tokens): paper
+white, navy ink, royal blue #2C43AA leading, lighter blue #3A55D0 and mint
+#89EE9E supporting. Poppins is the site's body font.
 
 Poppins is embedded as base64 WOFF2 because GitHub strips external font
 references from an SVG but keeps an inline @font-face.
@@ -13,14 +13,15 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(os.path.dirname(HERE), "assets")
 
-AMBER = "#FFC107"
-ORANGE = "#FF9016"
+BLUE_2 = "#3A55D0"
+BLUE = "#2C43AA"
+MINT = "#89EE9E"
 PAPER = "#FFFFFF"
-INK = "#0B0B0C"
-DARK = "#353535"
-MUTED = "#5D5D5D"
-LINE = "#E2E2E2"
-TRACK = "#F1F1F1"
+INK = "#142543"
+DARK = "#2B3A5C"
+MUTED = "#4A5878"
+LINE = "#DBE5F3"
+TRACK = "#E4F0FB"
 
 FONT = "'PoppinsEmb', Poppins, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace"
@@ -60,14 +61,14 @@ def card_open(w, h, label, radius=14):
 
 
 def title(x, y, text, size=17, rule=46):
-    """Card title plus the short amber rule used under every heading."""
+    """Card title plus the short blue rule used under every heading."""
     out = (
         '  <text x="%d" y="%d" font-size="%d" font-weight="700" fill="%s">%s</text>\n'
         % (x, y, size, INK, esc(text))
     )
     if rule:
         out += '  <rect x="%d" y="%d" width="%d" height="3" rx="1.5" fill="%s" />\n' % (
-            x, y + 12, rule, AMBER,
+            x, y + 12, rule, BLUE_2,
         )
     return out
 

@@ -3,24 +3,24 @@
 </p>
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Gabriel Andrei Villanueva - Full Stack Developer, Graphic Designer, UI/UX Designer" />
+  <img src="assets/header.svg" width="100%" alt="Gabriel Andrei Villanueva - Web Developer and Designer" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=16&duration=3200&pause=900&color=FF9016&center=true&vCenter=true&width=620&height=34&lines=I+build+real-world+web+projects.;I+craft+brand+visuals+that+carry+weight.;always+learning.+always+shipping." alt="" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=16&duration=3200&pause=900&color=2C43AA&center=true&vCenter=true&width=620&height=34&lines=I+build+websites+that+help+businesses+grow.;Web+apps%2C+online+stores%2C+dashboards+and+brands.;Designed%2C+built+and+launched+end+to+end." alt="" />
 </p>
 
 <p align="center">
-  <a href="https://engrgab.gt.tc"><img src="https://img.shields.io/badge/PORTFOLIO-FFC107?style=for-the-badge&logo=googlechrome&logoColor=0B0B0C&labelColor=0B0B0C&color=FFC107" alt="portfolio" /></a>
-  <a href="https://www.linkedin.com/in/gabriel-andrei-villanueva-56494337a/"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0C?style=for-the-badge&logo=linkedin&logoColor=FFC107&labelColor=0B0B0C" alt="linkedin" /></a>
-  <a href="mailto:cpe.villanueva.gabrielandrei@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B0B0C?style=for-the-badge&logo=gmail&logoColor=FF9016&labelColor=0B0B0C" alt="email" /></a>
-  <a href="https://github.com/gabbygab18?tab=repositories"><img src="https://img.shields.io/badge/REPOS-0B0B0C?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0B0B0C" alt="repositories" /></a>
+  <a href="https://engrgab.dev"><img src="https://img.shields.io/badge/ENGRGAB.DEV-2C43AA?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzg5RUU5RSIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0xIDE3LjkzYy0zLjk1LS40OS03LTMuODUtNy03LjkzIDAtLjYyLjA4LTEuMjEuMjEtMS43OUw5IDE1djFjMCAxLjEuOSAyIDIgMnYxLjkzem02LjktMi41NGMtLjI2LS44MS0xLTEuMzktMS45LTEuMzloLTF2LTNjMC0uNTUtLjQ1LTEtMS0xSDh2LTJoMmMuNTUgMCAxLS40NSAxLTFWN2gyYzEuMSAwIDItLjkgMi0ydi0uNDFjMi45MyAxLjE5IDUgNC4wNiA1IDcuNDEgMCAyLjA4LS44IDMuOTctMi4xIDUuMzl6Ii8%2BPC9zdmc%2B&labelColor=142543&color=2C43AA" alt="portfolio" /></a>
+  <a href="https://www.linkedin.com/in/gabriel-andrei-villanueva-56494337a/"><img src="https://img.shields.io/badge/LINKEDIN-142543?style=for-the-badge&logo=linkedin&logoColor=89EE9E&labelColor=142543" alt="linkedin" /></a>
+  <a href="mailto:cpe.villanueva.gabrielandrei@gmail.com"><img src="https://img.shields.io/badge/EMAIL-142543?style=for-the-badge&logo=gmail&logoColor=89EE9E&labelColor=142543" alt="email" /></a>
+  <a href="https://github.com/gabbygab18?tab=repositories"><img src="https://img.shields.io/badge/REPOS-142543?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=142543" alt="repositories" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OPEN_FOR_FREELANCE-FF9016?style=flat-square&labelColor=0B0B0C&color=FF9016" alt="open for freelance" />
-  <img src="https://img.shields.io/github/stars/gabbygab18?style=flat-square&logo=github&logoColor=FFC107&labelColor=0B0B0C&color=FFC107&label=STARS" alt="total stars" />
-  <img src="https://img.shields.io/github/followers/gabbygab18?style=flat-square&logo=github&logoColor=FFC107&labelColor=0B0B0C&color=FFC107&label=FOLLOWERS" alt="followers" />
+  <img src="https://img.shields.io/badge/OPEN_FOR_PROJECTS-89EE9E?style=flat-square&labelColor=142543&color=89EE9E" alt="open for projects" />
+  <img src="https://img.shields.io/github/stars/gabbygab18?style=flat-square&logo=github&logoColor=89EE9E&labelColor=142543&color=2C43AA&label=STARS" alt="total stars" />
+  <img src="https://img.shields.io/github/followers/gabbygab18?style=flat-square&logo=github&logoColor=89EE9E&labelColor=142543&color=2C43AA&label=FOLLOWERS" alt="followers" />
 </p>
 
 
@@ -31,27 +31,26 @@
 </h2>
 
 <p align="center">
-  <img src="assets/quote.png" width="46" alt="" />
-</p>
-
-<p align="center">
-<i>I build real-world web projects, craft compelling brand visuals, and turn ideas into<br/>
-clean, functional digital experiences. Early in my career but always learning, always shipping.</i>
+<b>Full stack development with a designer's eye.</b><br/>
+<i>Web developer and designer in San Pablo City, Laguna, PH. I build websites, web apps,<br/>
+online stores, dashboards and brands for businesses, designed, built and launched end to end.</i>
 </p>
 
 ```js
 const gabbygab = {
   name:      "Gabriel Andrei Villanueva",
-  role:      "Full Stack Developer | Graphic Designer | UI/UX Designer",
+  role:      "Web Developer & Designer",
+  location:  "San Pablo City, Laguna, PH",
   education: "BS Computer Engineering, Pamantasan ng Lungsod ng San Pablo (2022-2026)",
   currently: "Isla Outsourcing Solutions",
-  frontend:  ["react.js", "vue", "angular", "typescript", "tailwind", "sass"],
-  backend:   ["php", "laravel", "express", "mysql", "postgresql"],
-  baas:      ["supabase", "firebase"],
-  devops:    ["linux", "docker", "github actions"],
-  design:    ["figma", "photoshop", "premiere pro"],
-  portfolio: "https://engrgab.gt.tc",
-  status:    "available for freelance"
+  frontend:  ["react", "next.js", "vue", "angular", "typescript", "tailwind", "gsap", "three.js"],
+  backend:   ["php", "laravel", "node.js", "express", "mysql", "postgresql", "mongodb"],
+  baas:      ["supabase", "firebase", "cloudinary"],
+  devops:    ["linux", "docker", "github actions", "vercel", "aws", "cloudflare"],
+  design:    ["figma", "photoshop", "premiere pro", "canva"],
+  services:  ["web & app development", "ui/ux & graphic design", "brand identity",
+              "automation & internal tools", "seo & search visibility"],
+  portfolio: "https://engrgab.dev"
 };
 ```
 
@@ -74,21 +73,21 @@ const gabbygab = {
   <img src="assets/s-frontend.svg" height="30" alt="frontend" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,vue,angular,tailwind,bootstrap&theme=light" alt="frontend stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,sass,less,js,ts,react,nextjs,vue,angular,tailwind,bootstrap,vite,threejs&theme=light" alt="frontend stack" />
 </p>
 
 <p align="center">
   <img src="assets/s-backend.svg" height="30" alt="backend" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,postgresql,supabase,firebase&theme=light" alt="backend stack" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,expressjs,mysql,postgresql,mongodb,supabase,firebase&theme=light" alt="backend stack" />
 </p>
 
 <p align="center">
   <img src="assets/s-devops.svg" height="30" alt="devops" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=light" alt="devops stack" />
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,githubactions,vercel,aws&theme=light" alt="devops stack" />
 </p>
 
 <p align="center">
@@ -102,8 +101,40 @@ const gabbygab = {
   <img src="assets/s-tools.svg" height="30" alt="tools" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,cloudflare&theme=light" alt="tools stack" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,electron,wordpress,cloudflare&theme=light" alt="tools stack" />
 </p>
+
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+<h2 align="center">
+  <img src="assets/h-projects.svg" height="52" alt="Projects" />
+</h2>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td valign="top" width="50%"><a href="https://engrgab.dev/projects/glint-ui"><b>Glint UI</b></a><br/><sub>React &middot; shipped 2026 &middot; live</sub><br/><br/>A library of 354 animated React components, installable through the shadcn CLI.</td>
+    <td valign="top" width="50%"><a href="https://engrgab.dev/projects/orbit"><b>Orbit</b></a><br/><sub>Electron &middot; shipped 2026</sub><br/><br/>An always-on-top desktop widget that shows what Claude Code is doing.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://engrgab.dev/projects/pulse"><b>Pulse</b></a><br/><sub>Electron &middot; shipped 2026</sub><br/><br/>A desktop time-tracking widget for Isla Outsourcing staff.</td>
+    <td valign="top"><a href="https://engrgab.dev/projects/sahara-stocks"><b>Sahara Stocks</b></a><br/><sub>Laravel &middot; in progress</sub><br/><br/>An inventory system for Sahara Construction Supply.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://engrgab.dev/projects/sampay"><b>Sampay</b></a><br/><sub>Next.js &middot; in progress</sub><br/><br/>A secondhand clothing marketplace with an AI stylist.</td>
+    <td valign="top"><a href="https://engrgab.dev/projects/avatar-lab"><b>Avatar Lab</b></a><br/><sub>Next.js &middot; in progress</sub><br/><br/>A studio for procedural 2D characters.</td>
+  </tr>
+</table>
+
+<a href="https://engrgab.dev/projects/avatar-lab"><img src="assets/avatar-lab.svg" width="70%" alt="Characters drawn by Avatar Lab" /></a><br/>
+<sub>the cast, drawn by <a href="https://engrgab.dev/projects/avatar-lab">Avatar Lab</a></sub>
+<br/><br/>
+
+<a href="https://engrgab.dev/work"><img src="https://img.shields.io/badge/ALL%20WORK-142543?style=for-the-badge&labelColor=142543&color=142543" alt="all work" /></a>
+
+</div>
 
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
@@ -165,7 +196,7 @@ const gabbygab = {
 </p>
 
 <p align="center">
-  <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=FFFFFF&border=E2E2E2&stroke=E2E2E2&ring=FF9016&fire=FF9016&currStreakLabel=5D5D5D&currStreakNum=0B0B0C&sideNums=0B0B0C&sideLabels=5D5D5D&dates=5D5D5D" alt="contribution streak" />
+  <img width="78%" src="https://streak-stats.demolab.com?user=gabbygab18&hide_border=true&background=FFFFFF&border=DBE5F3&stroke=DBE5F3&ring=2C43AA&fire=2C43AA&currStreakLabel=4A5878&currStreakNum=142543&sideNums=142543&sideLabels=4A5878&dates=4A5878" alt="contribution streak" />
 </p>
 
 
@@ -191,16 +222,23 @@ const gabbygab = {
 </h2>
 
 <p align="center">
-  <img src="assets/bulb.png" width="84" alt="" />
+  <a href="https://engrgab.dev/projects/avatar-lab"><img src="assets/scout.svg" width="110" alt="Scout, drawn by Avatar Lab" /></a>
+</p>
+
+<h3 align="center">Have something to build?</h3>
+
+<p align="center">
+<b>Web &amp; app development</b> &middot; <b>UI/UX &amp; graphic design</b> &middot; <b>brand identity</b><br/>
+<b>automation &amp; internal tools</b> &middot; <b>SEO &amp; search visibility</b>
 </p>
 
 <p align="center">
-open for <b>freelance</b> &mdash; web builds, landing pages, branding, thumbnails, video edits.
+free consultation, reply within 24 hours.
 </p>
 
 <p align="center">
-  <a href="mailto:cpe.villanueva.gabrielandrei@gmail.com"><img src="https://img.shields.io/badge/LET'S%20BUILD%20SOMETHING-FFC107?style=for-the-badge&labelColor=0B0B0C&color=FFC107" alt="contact me" /></a>
-  <a href="https://engrgab.gt.tc"><img src="https://img.shields.io/badge/SEE%20THE%20PORTFOLIO-0B0B0C?style=for-the-badge&labelColor=0B0B0C&color=0B0B0C" alt="portfolio" /></a>
+  <a href="https://engrgab.dev/contact"><img src="https://img.shields.io/badge/LET'S%20TALK-2C43AA?style=for-the-badge&labelColor=2C43AA&color=2C43AA" alt="contact me" /></a>
+  <a href="https://engrgab.dev/services"><img src="https://img.shields.io/badge/SEE%20SERVICES-142543?style=for-the-badge&labelColor=142543&color=142543" alt="services" /></a>
 </p>
 
 <p align="center">

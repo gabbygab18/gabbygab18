@@ -2,7 +2,7 @@
 
 github-readme-stats' public instance is permanently paused (503
 DEPLOYMENT_PAUSED), and its themes cannot match this profile anyway: the rest
-of the README uses Poppins on paper with the portfolio's amber. So the cards
+of the README uses Poppins on paper with the portfolio's blue. So the cards
 are drawn here from the GitHub API, in that same design language, and a
 scheduled workflow keeps them current.
 
@@ -22,14 +22,14 @@ USER = sys.argv[1] if len(sys.argv) > 1 else "gabbygab18"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 # portfolio palette (resources/sass/app.scss + tailwind.config.js)
-AMBER = "#FFC107"
-ORANGE = "#FF9016"
+BLUE_2 = "#3A55D0"
+BLUE = "#2C43AA"
 PAPER = "#FFFFFF"
-INK = "#0B0B0C"
-DARK = "#353535"
-MUTED = "#5D5D5D"
-LINE = "#E2E2E2"
-TRACK = "#F1F1F1"
+INK = "#142543"
+DARK = "#2B3A5C"
+MUTED = "#4A5878"
+LINE = "#DBE5F3"
+TRACK = "#E4F0FB"
 
 # Languages GitHub has no strong colour for fall back to these, in order.
 LANG_COLORS = {
@@ -40,7 +40,7 @@ LANG_COLORS = {
     "Dart": "#00B4AB", "Ruby": "#701516", "Go": "#00ADD8", "TeX": "#3D6117",
     "Astro": "#FF5A03", "Svelte": "#FF3E00", "Jupyter Notebook": "#DA5B0B",
 }
-FALLBACK = ["#FFC107", "#FF9016", "#8A6A2F", "#BFBFBF", "#D9B45B", "#7A7A7A"]
+FALLBACK = ["#3A55D0", "#2C43AA", "#89EE9E", "#A9B6CF", "#1F8A3C", "#4A5878"]
 
 FONT = "'PoppinsEmb', Poppins, 'Segoe UI', Helvetica, Arial, sans-serif"
 FACE = (
@@ -145,7 +145,7 @@ def langs_card(d):
         '  <text x="26" y="40" font-size="17" font-weight="700" fill="%s">'
         "Most Used Languages</text>\n" % INK
     )
-    out.append('  <rect x="26" y="52" width="46" height="3" rx="1.5" fill="%s" />\n' % AMBER)
+    out.append('  <rect x="26" y="52" width="46" height="3" rx="1.5" fill="%s" />\n' % BLUE_2)
 
     bar_x, bar_w, bar_y = 26, W - 52, 66
     out.append(

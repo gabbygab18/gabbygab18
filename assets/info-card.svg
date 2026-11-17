@@ -9,24 +9,25 @@
     @keyframes in { to { opacity: 1 } }
   </style>
   <rect width="450" height="322" rx="14" fill="#FFFFFF" />
-  <rect x="0.6" y="0.6" width="448.8" height="320.8" rx="14" fill="none" stroke="#E2E2E2" stroke-width="1.2" />
-  <text x="26" y="40" font-size="17" font-weight="700" fill="#0B0B0C">gabbygab@github</text>
-  <rect x="26" y="52" width="46" height="3" rx="1.5" fill="#FFC107" />
-  <g class="fade" style="animation-delay:0.00s"><text x="26" y="78" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">name</text><text x="100" y="78" font-size="12" fill="#353535">Gabriel Andrei Villanueva</text></g>
-  <g class="fade" style="animation-delay:0.07s"><text x="26" y="99" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">role</text><text x="100" y="99" font-size="12" fill="#353535">Full Stack Dev | Graphic &amp; UI/UX</text></g>
-  <g class="fade" style="animation-delay:0.14s"><text x="26" y="120" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">now</text><text x="100" y="120" font-size="12" fill="#353535">Isla Outsourcing Solutions</text></g>
-  <g class="fade" style="animation-delay:0.21s"><text x="26" y="141" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">prev</text><text x="100" y="141" font-size="12" fill="#353535">Monte Carlo Technologies</text></g>
-  <g class="fade" style="animation-delay:0.28s"><text x="26" y="162" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">school</text><text x="100" y="162" font-size="12" fill="#353535">BS Computer Engineering, PLSP</text></g>
-  <g class="fade" style="animation-delay:0.35s"><text x="26" y="183" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">stack</text><text x="100" y="183" font-size="12" fill="#353535">Laravel / Vue / Angular / TS</text></g>
-  <g class="fade" style="animation-delay:0.42s"><text x="26" y="204" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">data</text><text x="100" y="204" font-size="12" fill="#353535">MySQL / PostgreSQL / Supabase</text></g>
-  <g class="fade" style="animation-delay:0.49s"><text x="26" y="225" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">design</text><text x="100" y="225" font-size="12" fill="#353535">Figma / Photoshop / Premiere</text></g>
-  <g class="fade" style="animation-delay:0.56s"><text x="26" y="246" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">roles</text><text x="100" y="246" font-size="12" fill="#353535">6 since 2022</text></g>
-  <g class="fade" style="animation-delay:0.63s"><text x="26" y="267" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#FF9016">site</text><text x="100" y="267" font-size="12" fill="#353535">engrgab.gt.tc</text></g>
-  <rect x="26" y="296" width="15" height="9" rx="2" fill="#0B0B0C" />
-  <rect x="45" y="296" width="15" height="9" rx="2" fill="#353535" />
-  <rect x="64" y="296" width="15" height="9" rx="2" fill="#5D5D5D" />
-  <rect x="83" y="296" width="15" height="9" rx="2" fill="#BFBFBF" />
-  <rect x="102" y="296" width="15" height="9" rx="2" fill="#E2E2E2" />
-  <rect x="121" y="296" width="15" height="9" rx="2" fill="#FFC107" />
-  <rect x="140" y="296" width="15" height="9" rx="2" fill="#FF9016" />
+  <rect x="0.6" y="0.6" width="448.8" height="320.8" rx="14" fill="none" stroke="#DBE5F3" stroke-width="1.2" />
+  <text x="26" y="40" font-size="17" font-weight="700" fill="#142543">gabbygab@github</text>
+  <rect x="26" y="52" width="46" height="3" rx="1.5" fill="#3A55D0" />
+  <g class="fade" style="animation-delay:0.00s"><text x="26" y="78" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">name</text><text x="100" y="78" font-size="12" fill="#2B3A5C">Gabriel Andrei Villanueva</text></g>
+  <g class="fade" style="animation-delay:0.07s"><text x="26" y="99" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">role</text><text x="100" y="99" font-size="12" fill="#2B3A5C">Web Developer &amp; Designer</text></g>
+  <g class="fade" style="animation-delay:0.14s"><text x="26" y="120" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">now</text><text x="100" y="120" font-size="12" fill="#2B3A5C">Isla Outsourcing Solutions</text></g>
+  <g class="fade" style="animation-delay:0.21s"><text x="26" y="141" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">prev</text><text x="100" y="141" font-size="12" fill="#2B3A5C">Monte Carlo Technologies</text></g>
+  <g class="fade" style="animation-delay:0.28s"><text x="26" y="162" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">school</text><text x="100" y="162" font-size="12" fill="#2B3A5C">BS Computer Engineering, PLSP</text></g>
+  <g class="fade" style="animation-delay:0.35s"><text x="26" y="183" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">stack</text><text x="100" y="183" font-size="12" fill="#2B3A5C">Laravel / React / Next.js / TS</text></g>
+  <g class="fade" style="animation-delay:0.42s"><text x="26" y="204" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">data</text><text x="100" y="204" font-size="12" fill="#2B3A5C">MySQL / PostgreSQL / Supabase</text></g>
+  <g class="fade" style="animation-delay:0.49s"><text x="26" y="225" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">design</text><text x="100" y="225" font-size="12" fill="#2B3A5C">UI/UX / Brand Identity / Figma</text></g>
+  <g class="fade" style="animation-delay:0.56s"><text x="26" y="246" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">roles</text><text x="100" y="246" font-size="12" fill="#2B3A5C">6 since 2022</text></g>
+  <g class="fade" style="animation-delay:0.63s"><text x="26" y="267" font-family="'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#2C43AA">site</text><text x="100" y="267" font-size="12" fill="#2B3A5C">engrgab.dev</text></g>
+  <rect x="26" y="296" width="15" height="9" rx="2" fill="#142543" />
+  <rect x="45" y="296" width="15" height="9" rx="2" fill="#2B3A5C" />
+  <rect x="64" y="296" width="15" height="9" rx="2" fill="#4A5878" />
+  <rect x="83" y="296" width="15" height="9" rx="2" fill="#A9B6CF" />
+  <rect x="102" y="296" width="15" height="9" rx="2" fill="#DBE5F3" />
+  <rect x="121" y="296" width="15" height="9" rx="2" fill="#89EE9E" />
+  <rect x="140" y="296" width="15" height="9" rx="2" fill="#3A55D0" />
+  <rect x="159" y="296" width="15" height="9" rx="2" fill="#2C43AA" />
 </svg>
